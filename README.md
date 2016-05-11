@@ -5,7 +5,7 @@ Home: http://code.enthought.com/projects/traits
 
 Package license: BSD 3-clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: traits - explicitly typed attributes for Python
 
