@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/traits-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/traits-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/traits-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/traits-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/traits-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/traits-feedstock/branch/master)
