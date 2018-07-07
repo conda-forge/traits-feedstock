@@ -10,11 +10,14 @@ source:
   sha256: c2deacbdb2a42825e198b35f46af13625c820e00e000f2fde2187cdb12c870b9
 
 build:
-  number: 1
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 2
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
+    - pip
     - python
     - setuptools
   run:
