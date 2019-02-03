@@ -1,4 +1,4 @@
-{% set version = "4.6.0" %}
+{% set version = "5.0.0" %}
 
 package:
   name: traits
@@ -6,12 +6,12 @@ package:
 
 source:
   fn: traits-{{ version }}.tar.gz
-  url: https://github.com/enthought/traits/archive/{{ version }}.tar.gz
-  sha256: c2deacbdb2a42825e198b35f46af13625c820e00e000f2fde2187cdb12c870b9
+  url: https://pypi.io/packages/source/t/traits/traits-{{ version }}.tar.gz
+  sha256: 8369117036fbbe00dbd40e1a01c8775b52bdbfa11db5788168e7c8c56663bac0
 
 build:
-  number: 1002
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
