@@ -23,6 +23,8 @@ requirements:
     - setuptools
   run:
     - python
+  run_constrained:
+    - traitsui >=7.0
 
 test:
   imports:
