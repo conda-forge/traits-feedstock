@@ -1,4 +1,4 @@
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: traits
@@ -7,12 +7,12 @@ package:
 source:
   fn: traits-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/traits/traits-{{ version }}.tar.gz
-  sha256: dbcd70166feca434130a1193284d5819ca72ffbc8dbce8deeecc0cebb41a3bfb
+  sha256: 97fca523374ae85e3d8fd78af9a9f488aee5e88e8b842e1cfd6d637a6f310fac
 
 build:
-  number: 1
-  skip: True  # [py27]
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  skip: true  # [py27]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -23,6 +23,8 @@ requirements:
     - setuptools
   run:
     - python
+  run_constrained:
+    - traitsui >=7.0
 
 test:
   imports:
