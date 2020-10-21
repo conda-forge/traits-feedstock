@@ -1,4 +1,4 @@
-{% set version = "6.1.0" %}
+{% set version = "6.1.1" %}
 
 package:
   name: traits
@@ -7,10 +7,10 @@ package:
 source:
   fn: traits-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/traits/traits-{{ version }}.tar.gz
-  sha256: 97fca523374ae85e3d8fd78af9a9f488aee5e88e8b842e1cfd6d637a6f310fac
+  sha256: 807da52ee0d4fc1241c8f8a04d274a28d4b23d3a5f942152497d19405482d04f
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py27]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -32,7 +32,7 @@ test:
 
 about:
   home: http://code.enthought.com/projects/traits
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: traits - explicitly typed attributes for Python
 
