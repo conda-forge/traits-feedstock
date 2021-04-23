@@ -272,6 +272,7 @@ Installing `traits` from the `conda-forge` channel can be achieved by adding `co
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `traits` can be installed with:
@@ -350,5 +351,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ericpre](https://github.com/ericpre/)
 * [@grlee77](https://github.com/grlee77/)
 
