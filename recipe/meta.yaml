@@ -1,4 +1,4 @@
-{% set version = "6.2.0" %}
+{% set version = "6.3.0" %}
 
 package:
   name: traits
@@ -7,7 +7,7 @@ package:
 source:
   fn: traits-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/traits/traits-{{ version }}.tar.gz
-  sha256: 16fa1518b0778fd53bf0547e6a562b1787bf68c8f6b7995a13bd1902529fdb0c
+  sha256: 770241df047feb9e3ed4c26a36c2468a5b754e6082a78eeb737f058bd45344f5
 
 build:
   number: 0
