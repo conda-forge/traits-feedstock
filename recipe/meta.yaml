@@ -32,7 +32,7 @@ test:
     - traits
 
 about:
-  home: http://code.enthought.com/projects/traits
+  home: https://docs.enthought.com/traits
   license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: traits - explicitly typed attributes for Python
