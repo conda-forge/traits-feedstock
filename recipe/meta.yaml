@@ -6,11 +6,11 @@ package:
 
 source:
   fn: traits-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/t/traits/traits-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/t/traits/traits-{{ version }}.tar.gz
   sha256: af4775747e11e05ffe13d3ba463d92f67f1f3d1a9e4f46ba33a44ea22b0c9644
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
